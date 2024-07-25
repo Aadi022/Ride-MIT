@@ -1,0 +1,71 @@
+  body {
+    min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+  .mybutton {
+    margin: 0 10px; 
+    padding: 30px;
+    font-size: 16px; 
+    border-radius: 20px;
+    border: 10px;
+    height: 30px;
+  }
+
+  .mybutton:hover{
+    cursor: pointer;
+  }
+
+  .footer-content {
+    margin-top: 500px;
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Distributes items evenly in the line */
+    align-items: center; /* Aligns items vertically in the middle */
+    padding: 0 20px;
+    margin-bottom: 0%;
+  }
+
+  .lower-content{
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Distributes items evenly in the line */
+    align-items: center; /* Aligns items vertically in the middle */
+    padding: 0 20px;
+    margin-top: 0%;
+  }
+
+
+  .button-1{
+    padding: 25px;
+    font-size: 16px; 
+    border-radius: 20px;
+    border: 10px;
+    height: 30px;
+    margin-right: 1180px;
+    margin-left: 20px;
+    height: 10px;
+    cursor: pointer;
+  }
+
+  .button-2{
+    padding: 25px;
+    font-size: 16px; 
+    border-radius: 20px;
+    border: 10px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  footer {
+      margin-top: auto;
+  }
+
+  
